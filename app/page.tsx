@@ -77,7 +77,7 @@ export default function Home() {
             disabled={isSubmitting}
             className="hover:bg-blue-200 rounded-xl w-full transition-colors duration-200"
           >
-            <div className="flex">
+            <div className="flex content-center justify-center flex-wrap">
               {[...Array(5)].map((_, i) => (
                 <svg
                   key={i}
@@ -109,7 +109,7 @@ export default function Home() {
               href={`/stars-${rating}`} 
               className="hover:bg-blue-200 rounded-xl w-full transition-colors duration-200"
             >
-              <div className="flex">
+              <div className="flex content-center justify-center flex-wrap">
                 {[...Array(5)].map((_, i) => (
                   <svg
                     key={i}
